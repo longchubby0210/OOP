@@ -1,0 +1,87 @@
+1. Thời gian có giờ và phút, giờ có giá trị trong khoảng 0-23, phút có giá trị trong khoảng
+0-59. Nhập vào thời gian bắt đầu một ca thi và số phút làm bài thi. Tính thời gian kết
+thúc ca thi. Yêu cầu sử dụng toán tử nhập >> và toán tử xuất << để nhập vào và đưa ra
+thời gian ở dạng h:mm, sử dụng toán tử + để cộng thời gian với số phút, thời gian được
+khởi tạo tự động với giờ và phút bằng 0 hoặc khởi tạo bằng giờ, phút cho trước.
+
+
+2. Cho tệp văn bản ‘sophuc.txt’ chứa phần thực và phần ảo của n số phức. Tính tổng của
+n số phức. Đưa các số phức ra màn hình ở dạng a + jb. Yêu cầu sử dụng toán tử xuất <<
+để đưa số phức ra màn hình; sử dụng toán tử + để cộng hai số phức; số phức được tự
+động khởi tạo phần thực và phần ảo bằng 0; sử dụng mảng động để chứa n số phức.
+
+
+3. Cho tệp văn bản “hinhtru.txt” chứa bán kính r và chiều cao h của n hình trụ. Tính tổng
+diện tích toàn phần của n hình trụ. Đưa ra màn hình diện tích của từng hình trụ và tổng
+diện tích của n hình trụ. Biết rằng hình trụ là một loại hình tròn có bán kính r được kéo
+dài với chiều cao h. Yêu cầu sử dụng mảng động chứa n hình trụ, các hình trụ được tự
+động khởi tạo bán kính và chiều cao bằng 0.
+
+
+4. Cho tệp văn bản “phanso1.txt” và “phanso2.txt”, mỗi tệp có một dòng chứa phân số ở
+dạng a/b. Tính tổng hai phân số đọc vào từ tệp. Đưa các phân số ra màn hình ở dạng rút
+gọn và chưa rút gọn. Yêu cầu sử dụng toán tử nhập >> để đọc vào phân số từ tệp; sử
+dụng toán tử xuất << để đưa phân số ra màn hình ở dạng a/b; sử dụng toán tử + để cộng
+hai phân số; phân số được tự động khởi tạo tử số bằng 0 và mẫu số bằng 1 hoặc được
+khởi tạo tử số và mẫu số bằng giá trị cho trước.
+
+
+5. Cho tệp văn bản “matran.txt” chứa ma trận số thực Amxn. Đọc vào ma trận A từ tệp.
+Tính trung bình cộng các phần tử của ma trận A. Nhân ma trận A với một số thực x nhập
+vào từ bàn phím để được ma trận B (B = A*x). Đưa ma trận A và B ra màn hình theo
+định dạng hàng, cột. Yêu cầu sử dụng toán tử nhập >> để đọc vào ma trận từ tệp; sử
+dụng toán tử xuất << để đưa ma trận ra màn hình theo định dạng hàng, cột; sử dụng toán
+tử nhân * để nhân ma trận với một số; ma trận được tự động khởi tạo kích thước m, n
+bằng 0.
+
+
+6. Cho tệp văn bản “diemmonhoc.txt” chứa danh sách điểm môn học của n sinh viên, mỗi
+sinh viên có thông tin về mã sinh viên, tên (không có họ đệm), điểm kiểm tra, điểm thi.
+Điểm môn học được tính bằng 0,3 x Điểm kiểm tra + 0,7 x Điểm thi. Đếm số lượng và
+đưa ra màn hình danh sách các sinh viên chưa đạt (có điểm môn học < 4). Yêu cầu sử
+dụng toán tử nhập >> và toán tử xuất << để nhập vào và đưa ra thông tin của từng sinh
+viên.
+
+
+7. Một nhân sự nói chung có họ tên và ngày sinh. Nhân viên trong một công ty là một loại
+nhân sự nhưng có thêm mã nhân viên và hệ số lương. Cán bộ quản lý trong công ty là
+một loại nhân viên nhưng có thêm chức vụ và hệ số phụ cấp chức vụ. Nhập vào thông
+tin của n cán bộ quản lý trong công ty. Đưa ra thông tin của các cán bộ quản lý đã nhập.
+Tìm cán bộ quản lý có lương cao nhất. Lương của cán bộ quản lý được tính theo công
+thức: (hệ số lương + hệ số phụ cấp chức vụ) * 1800.
+
+
+8. Tính hiệu hai phân số nhập vào từ bàn phím. Đưa các phân số ra màn hình ở dạng rút
+gọn và chưa rút gọn. Yêu cầu sử dụng toán tử nhập >> để nhập vào phân số từ bàn phím
+ở dạng a/b; sử dụng toán tử xuất << để đưa phân số ra màn hình ở dạng a/b; sử dụng
+toán tử - để trừ hai phân số; phân số được tự động khởi tạo tử số bằng 0 và mẫu số bằng
+1 hoặc được khởi tạo tử số và mẫu số bằng giá trị cho trước.
+
+
+9. Tính hiệu 2 ma trận nguyên: Cmxn = Amxn - Bmxn. Ma trận Amxn để trong tệp văn
+bản “matran-A.txt”, ma trận Bmxn để trong tệp văn bản “matran-B.txt”. Đưa các ma
+trận ra màn hình theo định dạng hàng, cột. Yêu cầu: sử dụng toán tử nhập >> để đọc
+vào ma trận từ tệp; sử dụng toán tử xuất << để đưa ma trận ra màn hình theo định dạng3
+hàng cột, toán tử trừ - để trừ 2 ma trận; ma trận được tự động khởi tạo kích thước m, n
+bằng 0.
+
+
+10. Cho 3 điểm trong mặt phẳng: A(x1, y1), B(x2, y2) và C(x3, y3). Tính chu vi tam giác
+ABC. Yêu cầu: sử dụng toán tử nhập >> để nhập tọa độ từ bàn phím ở dạng x y; sử dụng
+toán tử xuất << để đưa tọa độ ra màn hình ở dạng (x, y); dùng toán tử trừ - để tính
+khoảng cách giữa 2 điểm; tọa độ các điểm được tự động khởi tạo bằng 0 và có thể khởi
+tạo bằng 2 giá trị cho trước..
+
+
+11. Cho tệp văn bản “sinhvien-thi.txt” chứa danh sách n sinh viên, mỗi sinh viên có thông
+tin về mã sinh viên, tên (không có họ đệm), điểm kiểm tra, điểm thi. Điểm môn học
+được tính bằng 0,4 x Điểm kiểm tra + 0,6 x Điểm thi. Sắp xếp danh sách sinh viên theo
+điểm môn học giảm dần. Đưa ra màn hình danh sách sinh viên sau khi sắp xếp. Yêu cầu
+sử dụng toán tử so sánh > để so sánh hai sinh viên theo điểm môn học.
+
+
+12. Nhập vào danh sách n tên tỉnh từ bàn phím. Sắp xếp danh sách tên tỉnh theo vần ABC.
+Yêu cầu sử dụng đối tượng xâu ký tự tự cài đặt để chứa tên tỉnh; sử dụng toán tử nhập
+>> để nhập vào xâu ký tự; sử dụng toán tử xuất << để đưa xâu ký tự ra màn hình; sử
+dụng toán tử < để so sánh xâu ký tự; xâu ký tự được tự động khởi tạo bằng xâu rỗng; sử
+dụng mảng động để chứa danh sách n tên tỉnh.
